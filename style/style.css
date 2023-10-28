@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/** Navbar */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #3f4192;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px 10px 25px #7072b4;
+
+}
+
+.navbar>nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+
+.navbar>nav>a {
+    color: white;
+    font: bold;
+    text-decoration: none;
+    padding: 4px;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #3f4192;
+    height: 100px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+/** About me */
+.about-section { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    margin-top: 20px;
+    background-color: #6d6bae;
+    box-shadow: 0px 10px 15px #7072b4;
+
+}
+
+.about-section>p{
+    text-align: justify;
+    width: 75%;
+    margin: 10px;
+}
+
+.about-section>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    box-shadow: 1px 10px 25px #b5b4fc;
+    margin: 20px;
+    padding: 5px;
+
+}
+
+/** Skills */
+
+.skills-section{
+    text-align: center;
+    margin: 40px 0px;
+}
+
+/*** Technologies */
+.lenguages-section{
+    text-align: center;
+    padding: 40px 0px;
+    background: #6d6bae;
+    box-shadow: 0px 10px 15px #7072b4;
+}
+
+.lenguages-card{
+    display: inline-block;
+    box-shadow: 2px 2px 20px #b5b4fc;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 8px;
+    text-align: left;
+    background: white;
+}
+
+.lenguages-card>img{
+    width: 100px;
+    height: 100px;
+}
+
+/** Frameworks */
+
+.frameworks-card{
+    display: inline-block;
+    box-shadow: 2px 2px 20px #b5b4fc;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 8px;
+    text-align: left;
+    background: white;
+
+}
+
+.frameworks-card>img{
+    width: 100px;
+    height: 100px;
+}
+
+.frameworks-section{
+    text-align: center; 
+    margin: 40px 0px;
+}
+
+/** Tools */
+.tools-card{
+    display: inline-block;
+    box-shadow: 2px 2px 20px #b5b4fc;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 8px;
+    text-align: left;
+    background: white;
+}
+
+.tools-card>img{
+    width: 100px;
+    height: 100px;
+}
+
+.tools-section{
+    text-align: center;
+    padding: 40px 0px;
+    background: #6d6bae;
+    box-shadow: 0px 10px 25px #7072b4;
+
+}
+
+/** Projects */
+.projects {
+    text-align: center;
+    padding: 40px 0px;
+    
+}
+
+.project-card {
+    display: inline-block;
+    box-shadow: 2px 2px 20px #b5b4fc;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 8px;
+    text-align: left;
+    background: white;
+    max-width: 350px;
+}
+
+.project-card>img {
+    max-width: 350px;
+}
+
+.project-card>.technologies {
+    padding: 4px;
+    margin: 4px;
+    text-align: center;
+}
+
+.technologies>label {
+    box-shadow: 2px 2px 20px #b5b4fc;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #f6eaff;
+}
+
+/** Experience */
+.experience-section {
+    text-align: center;
+    background: #6d6bae;
+    padding: 40px 0px;
+    box-shadow: 0px 10px 25px #7072b4;
+}
+
+.experience-card {
+    display: inline-block;
+    width: 350px;
+    box-shadow: 2px 2px 20px #b5b4fc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 8px;
+    text-align: left;
+    background: white;
+    
+}
+
+.experience-card>.technologies {
+    text-align: center;
+    margin: 4px;
+    padding: 4px;
+}

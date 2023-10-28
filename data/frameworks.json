@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Django",
+        "img": "../img/frameworks/django.svg",
+        "level": "Intermedium"
+    },
+    {
+        "name": "Flask",
+        "img": "../img/frameworks/flask.svg",
+        "level": "Intermedium"
+    },
+    {
+        "name": "Node",
+        "img": "../img/frameworks/node.svg",
+        "level": "Intermedium"
+    },
+    {
+        "name": "React",
+        "img": "../img/frameworks/react.svg",
+        "level": "Avanced"
+    },
+    {
+        "name": "Electron",
+        "img": "../img/frameworks/electron.svg",
+        "level": "Intermedium"
+    },
+    {
+        "name": "Next",
+        "img": "../img/frameworks/next.svg",
+        "level": "Intermedium"
+    },
+    {
+        "name": "Fiber",
+        "img": "../img/frameworks/fiber.svg",
+        "level": "Basic"
+    }
+]

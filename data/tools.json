@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Bootstrap",
+        "img": "../img/tools/bootstrap.svg",
+        "level": "Intermedium"
+    },
+    {
+        "name": "JQuery",
+        "img": "../img/tools/jquery.svg",
+        "level": "Intermedium"
+    },
+    {
+        "name": "Tailwind",
+        "img": "../img/tools/tailwind.svg",
+        "level": "Intermedium"
+    }
+]

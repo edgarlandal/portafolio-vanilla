@@ -1,0 +1,37 @@
+[
+    {
+        "name": "JavaScript",
+        "img": "../img/lenguages/js.svg",
+        "level": "Intermedium"
+    },
+    {
+        "name": "Python",
+        "img": "../img/lenguages/python.svg",
+        "level": "Intermedium"
+    },
+    {
+        "name": "C++",
+        "img": "../img/lenguages/c-plus-plus.svg",
+        "level": "Intermedium"
+    },
+    {
+        "name": "Java",
+        "img": "../img/lenguages/java.svg",
+        "level": "Intermedium"
+    },
+    {
+        "name": "HTML",
+        "img": "../img/lenguages/html.svg",
+        "level": "Intermedium"
+    },
+    {
+        "name": "CSS",
+        "img": "../img/lenguages/css3.svg",
+        "level": "Intermedium"
+    },
+    {
+        "name": "GO",
+        "img": "../img/lenguages/go.svg",
+        "level": "Intermedium"
+    }
+]
