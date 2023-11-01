@@ -1,35 +1,57 @@
 [
     {
-        "entity": "Name of the school or company",
-        "title": "Course name or Job position",
+        "entity": "Universidad Autonoma de Baja California",
+        "title": "Computer Engineer",
         "description": "The short description for the course or the job position.",
-        "period": "Month YYYY - Month YYYY",
+        "period": "August 2018 - June 2023",
         "technology": [
-            "Technology",
-            "Or",
-            "Skill"
+            "C/C++",
+            "JavaScript",
+            "Python",
+            "Flask",
+            "Bash",
+            "Linux"
         ]
     },
     {
-        "entity": "Name of the school or company",
-        "title": "Course name or Job position",
+        "entity": "San Diego Global Knowledge University",
+        "title": "Fullstack Developer Immverse",
         "description": "The short description for the course or the job position.",
-        "period": "Month YYYY - Month YYYY",
+        "period": "May 2023 - December 2023",
         "technology": [
-            "Technology",
-            "Or",
-            "Skill"
+            "JavaScript",
+            "Python",
+            "CSS",
+            "HTML",
+            "JQuery",
+            "Bootstrap",
+            "React",
+            "Django",
+            "Flask"
         ]
     },
     {
-        "entity": "Name of the school or company",
-        "title": "Course name or Job position",
+        "entity": "MCCAIN Traffic Supply",
+        "title": "Software Developer Intern",
         "description": "The short description for the course or the job position.",
-        "period": "Month YYYY - Month YYYY",
+        "period": "Febraury 2023 - June 2023",
         "technology": [
-            "Technology",
-            "Or",
-            "Skill"
+            "C",
+            "Bash",
+            "Python"
+        ]
+    },
+    {
+        "entity": "Seguros De Las Californias",
+        "title": "Software Developer",
+        "description": "The short description for the course or the job position.",
+        "period": "August 2023 - Octuber 2023",
+        "technology": [
+            "JavaScript",
+            "Python",
+            "React",
+            "Next.js",
+            "Django"
         ]
     }
 ]

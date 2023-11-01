@@ -48,6 +48,7 @@ function createProjectCards(json) {
         <p>${project.year}</p>
 
         <div class="technologies center" id="tech-${i}">
+
         </div>
     </div>
     `;
@@ -56,7 +57,7 @@ function createProjectCards(json) {
     for (let j = 0; j < project.technologies.length; j++) {
       const tech = project.technologies[j];
       techListElement.innerHTML += `
-        <label>${tech}</label>
+        <div>${tech}</div>
       `;
     }
   }
@@ -72,8 +73,8 @@ function createExperienceCards(json) {
     const experience = experiences[i];
     experienceListElement.innerHTML += `
       <div class="experience-card">
-        <p>${experience.entity}</p>
-        <p>${experience.title}</p>
+        <p style="font-weight: bold; font-size: 20px; padding: 10px 0px;">${experience.entity}</p>
+        <p style="font-weight: 400; font-size: 20px; padding: 10px 0px;">${experience.title}</p>
         <p>${experience.description}</p>
 
         <p>${experience.period}</p>
@@ -87,7 +88,7 @@ function createExperienceCards(json) {
     for (let j = 0; j < experience.technology.length; j++) {
       const tech = experience.technology[j];
       techListElement.innerHTML += `
-        <label>${tech}</label>
+        <div>${tech}</div>
       `;
     }
   }

@@ -1,7 +1,18 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Edu TAS Beginner', cursive;
 }
+
+h2 {
+    text-shadow: 1px 10px 20px #7072b4;
+    color: white;
+    font-size: 45px;
+    margin: 20px 0px;
+    -webkit-text-stroke: 0.5px #7072b4;
+    /* Agrega un borde negro a las letras */
+}
+
 
 /** Navbar */
 .navbar {
@@ -26,9 +37,18 @@
     color: white;
     font: bold;
     text-decoration: none;
-    padding: 4px;
-    font-size: 20px;
+    padding: 10px;
+    font-size: 24px;
 }
+
+.navbar>nav>a:hover {
+    color: white;
+    font: bold;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 24px;
+}
+
 
 .footer {
     background-color: #3f4192;
@@ -38,7 +58,7 @@
 }
 
 /** About me */
-.about-section { 
+.about-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,41 +67,51 @@
     margin-top: 20px;
     background-color: #6d6bae;
     box-shadow: 0px 10px 15px #7072b4;
-
 }
 
-.about-section>p{
+.about-section>.content>p {
     text-align: justify;
-    width: 75%;
     margin: 10px;
 }
 
-.about-section>img{
-    width: 200px;
-    height: 200px;
+.about-section>.content>img {
+    width: 250px;
+    height: 250px;
     border-radius: 100%;
-    box-shadow: 1px 10px 25px #b5b4fc;
+    box-shadow: 5px 5px 15px white;
     margin: 20px;
-    padding: 5px;
+}
+
+.text-about {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #b5b4fc;
+    font-size: 20px;
 
 }
 
 /** Skills */
 
-.skills-section{
+.skills-section {
     text-align: center;
     margin: 40px 0px;
+    display: flex;
+    justify-content: center;
 }
 
+
 /*** Technologies */
-.lenguages-section{
-    text-align: center;
+.lenguages-section {
+    display: flex;
+    justify-content: center;
     padding: 40px 0px;
     background: #6d6bae;
     box-shadow: 0px 10px 15px #7072b4;
 }
 
-.lenguages-card{
+.lenguages-card {
     display: inline-block;
     box-shadow: 2px 2px 20px #b5b4fc;
     border-radius: 10px;
@@ -91,14 +121,19 @@
     background: white;
 }
 
-.lenguages-card>img{
+.lenguages-card>img {
     width: 100px;
     height: 100px;
 }
 
 /** Frameworks */
 
-.frameworks-card{
+.frameworks-section {
+    display: flex;
+    justify-content: center;
+}
+
+.frameworks-card {
     display: inline-block;
     box-shadow: 2px 2px 20px #b5b4fc;
     border-radius: 10px;
@@ -109,18 +144,18 @@
 
 }
 
-.frameworks-card>img{
+.frameworks-card>img {
     width: 100px;
     height: 100px;
 }
 
-.frameworks-section{
-    text-align: center; 
+.frameworks-section {
+    text-align: center;
     margin: 40px 0px;
 }
 
 /** Tools */
-.tools-card{
+.tools-card {
     display: inline-block;
     box-shadow: 2px 2px 20px #b5b4fc;
     border-radius: 10px;
@@ -130,12 +165,12 @@
     background: white;
 }
 
-.tools-card>img{
+.tools-card>img {
     width: 100px;
     height: 100px;
 }
 
-.tools-section{
+.tools-section {
     text-align: center;
     padding: 40px 0px;
     background: #6d6bae;
@@ -145,9 +180,10 @@
 
 /** Projects */
 .projects {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     padding: 40px 0px;
-    
+
 }
 
 .project-card {
@@ -158,11 +194,11 @@
     margin: 8px;
     text-align: left;
     background: white;
-    max-width: 350px;
+    max-width: 500px;
 }
 
 .project-card>img {
-    max-width: 350px;
+    max-width: 445px;
 }
 
 .project-card>.technologies {
@@ -171,17 +207,23 @@
     text-align: center;
 }
 
-.technologies>label {
+.technologies{
+    margin: 10px 0px;
+}
+
+.technologies>div {
+    background-color: #f6eaff;
+    display: inline-block;
     box-shadow: 2px 2px 20px #b5b4fc;
     border-radius: 5px;
     margin: 5px;
-    padding: 5px;
-    background-color: #f6eaff;
+    padding: 2px 0px;
 }
 
 /** Experience */
 .experience-section {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     background: #6d6bae;
     padding: 40px 0px;
     box-shadow: 0px 10px 25px #7072b4;
@@ -189,18 +231,52 @@
 
 .experience-card {
     display: inline-block;
-    width: 350px;
+    max-width: 320px; 
+    height: 100%;
     box-shadow: 2px 2px 20px #b5b4fc;
     border-radius: 10px;
     padding: 20px;
-    margin: 8px;
+    margin: 10px 10px;
     text-align: left;
     background: white;
+}
+
+.content {
+    width: 50%;
+    text-align: center;
+    font-weight:700;
     
 }
 
-.experience-card>.technologies {
-    text-align: center;
-    margin: 4px;
-    padding: 4px;
+@media screen and (max-width: 768px) {
+    .content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .project-card>img {
+        max-width: 350px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .content {
+        width: 80%;
+        text-align: center;
+    }
+
+    .project-card>img {
+        max-width: 350px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .content {
+        width: 60%;
+        text-align: center;
+    }
+
+    .project-card>img {
+        max-width: 350px;
+    }
 }

@@ -1,41 +1,38 @@
 [
     {
-        "name": "First project",
-        "description": "This is the description of my first project.",
+        "name": "Blog",
+        "description": "Allows blog creation and administration",
         "year": 2023,
-        "img": "../img/img.avif",
-        "repository": "http://github.com/",
+        "img": "../img/projects/blog.png",
+        "repository": "https://github.com/edgarlandal/django-blog",
         "technologies": [
-            "Tech 1",
-            "Tech 2",
-            "Tech 3"
+            "Djangpo",
+            "Bootstrap",
+            "SQLITE3"
         ]
     },
     {
-        "name": "Second project",
-        "description": "This is the description of my second project.",
+        "name": "Issue Manager",
+        "description": "This project fulfills the functionality of the issue manager..",
         "year": 2023,
-        "img": "../img/img.avif",
-        "repository": "http://github.com/",
+        "img": "../img/projects/issue.png",
+        "repository": "https://github.com/edgarlandal/issue_mgr",
         "technologies": [
-            "Tech 1",
-            "Tech 2",
-            "Tech 3",
-            "Tech 4"
+            "Djangpo",
+            "Bootstrap",
+            "SQLITE3"
         ]
     },
     {
-        "name": "Third project",
-        "description": "This is the description of my third project.",
+        "name": "Task Manager",
+        "description": "This project fulfills the task manager functionality.",
         "year": 2023,
-        "img": "../img/img.avif",
+        "img": "../img/projects/task.png",
         "repository": "http://github.com/",
         "technologies": [
-            "Tech 1",
-            "Tech 2",
-            "Tech 3",
-            "Tech 4",
-            "Tech 5"
+            "Flask",
+            "Bootstrap",
+            "MongoDB"
         ]
     }
 ]
